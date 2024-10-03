@@ -1,0 +1,77 @@
+body{
+    background: #222;
+    color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+section{
+    display:flex;
+}
+
+.caja{
+    border:1px dashed #999;
+    width: 30vw;
+    padding: 5px;
+    
+}
+
+.caja h2{
+    color:rgb(255, 208, 0);
+    font-style: italic;
+}
+
+.caja span{
+    cursor:pointer;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border:1px dashed #999;
+    width: 30vw;
+    padding: 5px;
+    background:#fff;
+    
+}
+
+.imagen img {
+    height: 350px;
+}
+
+
+.info{
+    border:1px dashed #999;
+    width: 30vw;
+    padding: 5px;
+    gap:0
+}
+
+.info h2 {
+    color:rgb(255, 208, 0);
+    font-style: italic;
+}
+
+.info b {
+    color:rgb(233, 101, 14);
+    font-style:normal
+}
+
+.planeta{
+    display: flex;
+    justify-content: center;
+    width: 100%;       
+    margin: 10px 0 10px;
+}
+
+.planeta img {
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #000000;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
